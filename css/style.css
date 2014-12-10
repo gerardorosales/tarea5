@@ -1,0 +1,206 @@
+body{
+	background: #FFF;
+	color:#aaa;
+	font-size: 0.9em;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+.producto{
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.precio{
+	font-size: 1em;
+	color: #B40404;
+	float: right;
+}
+
+.borrar{
+	color: red;
+	float: right;
+}
+
+.fondo{
+	height: 250px;
+	background: url(../img/02.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.der{
+	float: right;
+	height: 30px;
+}
+
+.formaDePago1, .formaDePago2{
+	height: 40px;
+}
+
+.container_4 .grid_1,
+.container_4 .grid_2,
+.container_4 .grid_3,
+.container_4 .grid_4{
+	margin-top: 5px;
+}
+
+.footer{
+	height: 150px;
+	background-color:#247ba0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+
+@media only screen and (min-width: 770px){
+	.container_4
+	{
+		margin:0px auto;
+		width: 900px;
+	}
+	.container_4 .movil {width: 20.83%;}	
+	.container_4 .grid_1 {width: 20.83%;}
+
+	.formaDePago1, .formaDePago2{
+			height: 30px;
+	}
+	
+	.fondo{
+		display: none;
+	}
+
+	.fondo2{
+		height: 280px;
+		background: url(../img/03.png);
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+
+	.footer{
+		height: 100px;
+	}
+}
+
+@media only screen and (max-width: 599px){
+	body{
+		font-size: 0.8em;
+	}
+
+	.fondo{
+		background: url(../img/01.jpg);
+		background-size: 100%;
+		height: 110px;
+	}
+
+	.fondo2{
+		display: none;
+	}
+
+	.formaDePago1{
+		width: 44%;
+		height: 30px;
+	}
+	
+	.formaDePago2{
+		width: 96%;
+		height: 30px;
+	}	
+
+	.producto{
+		margin: 0 auto;
+		width: 60%;
+	}
+
+	.container_4 .movil {width: 92.83%;}
+
+	.footer{
+		height: 100px;
+	}
+	
+}
+
+@media only screen and (max-width: 450px) and (min-width: 241px){
+	body{
+		font-size: 0.8em;
+	}
+
+	.fondo{
+		background: url(../img/01.jpg);
+		background-size: 100%;
+		height: 80px;
+	}
+
+	.fondo2{
+		display: none;
+	}
+
+	.producto{
+		margin: 0 auto;
+		width: 70%;
+	}
+
+	.formaDePago1{
+		width: 44%;
+		height: 21px;
+	}
+	
+	.formaDePago2{
+		width: 96%;
+		height: 21px;
+	}	
+
+	.container_4 .movil {width: 92.83%;}
+
+	.footer{
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width: 240px){
+	body{
+		font-size: 0.6em;
+	}
+
+	.fondo{
+		background: url(../img/01.jpg);
+		background-size: 100%;
+		height: 48px;
+	}
+
+	.fondo2{
+		display: none;
+	}
+
+	.producto{
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.formaDePago1{
+		width: 44%;
+		height: 17px;
+	}
+	
+	.formaDePago2{
+		width: 96%;
+		height: 17px;
+	}	
+
+	.container_4 .movil {width: 92.83%;}
+
+
+	.footer{
+		height: 250px;
+	}
+}
