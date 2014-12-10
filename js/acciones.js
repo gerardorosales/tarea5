@@ -10,6 +10,19 @@ $(document).ready(function(){
 	    $(this).parent().toggle(1000);
    	});   	
 
+    var botonDisabled=true;
+
+
+    $(document).on('click','.fav',function(){
+                if(botonDisabled==true)
+                {
+                    $(this).replaceWith("<img class='der fav' src='img/04.jpg' alt='Favorito'/>");
+                    botonDisabled=false;
+                }else{
+                    $(this).replaceWith("<img class='der fav' src='img/02.jpg' alt='Favorito'/>");
+                    botonDisabled=true;
+                }
+            });
 
 	$('.carrito').click(function(evento){
      	$('#comprasT').html("<h3>Tus compras:</h3>");
